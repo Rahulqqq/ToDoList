@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:true}));    //bodyparser
 
 app.use(express.static("public"))       // render css and other files like header, footer, image
 
-// main page
+// main page --
  // Generate current day in a particulate formate that we desire
 app.get("/", function(req, res){
     
