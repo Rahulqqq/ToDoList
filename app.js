@@ -26,7 +26,7 @@ app.get("/", function(req, res){
 });
 
 
-// for main and work page when user add item in work otherwise item add in main page '/' .
+// for main and work page when user add item in work otherwise item add in main page '/' 
 
 app.post("/", function(req, res){
 
