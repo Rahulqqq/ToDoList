@@ -9,7 +9,7 @@ const items = ["Buy Food", "Cook Food", "Eat Food"];     // item in '/'
 const workItems = [];      //items for work 
 
 
-app.set('view engine', 'ejs');       //for ejs
+app.set('view engine', 'ejs');       //for ejs.
 
 app.use(bodyParser.urlencoded({extended:true}));    //bodyparser
 
