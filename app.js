@@ -46,7 +46,7 @@ app.post("/", function(req, res){
 });
 
 
-//for work page
+//for work page.
 
 app.get("/work", function(req, res){
     res.render("list", {listTitle : "Work List", newListItems : workItems})
